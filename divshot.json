@@ -1,0 +1,14 @@
+{
+	"name": "move",
+	"root": "./dist",
+	"clean_urls": true,
+	"cache_control": {
+		"/fonts/**": 86400,
+		"/images/**": 86400,
+		"/js/**": 86400,
+		"/styles/**": 86400
+	},
+	"routes": {
+		"**": "index.html"
+	}
+}
